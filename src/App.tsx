@@ -35,7 +35,7 @@ export default function Page() {
       "Нет значит да?",
       "Нет?",
       "Да?",
-      "Да???",
+      "АЭЭЭЭ",
       "Пиз?"
     ];
 
@@ -47,8 +47,8 @@ export default function Page() {
       <div className="valentine-container">
         {yesPressed ? (
           <>
-            <img src="https://media1.tenor.com/m/PXVgzio7BmcAAAAC/happy-dance.gif" />
-            <div className="text-container">УраааАААААААА</div>
+            <img src="https://media1.tenor.com/m/Nt_gWzIXZdcAAAAd/taekook-awkward-jikook.gif" />
+            <div className="text-container">УрааААААА теперь я счастлива!!! Пойду смотреть на целующихся вигуков</div>
           </>
         ) : (
           <>
@@ -57,14 +57,14 @@ export default function Page() {
               style={{ width: "400x", height: "240px" }}
               src="https://media1.tenor.com/m/kN-nCTDiRLQAAAAd/taehyung.gif"
             />
-            <h1 className="text-container">Давай устроим на днях лютую вечеринку века и поговорим по аудио??</h1>
+            <h1 className="text-container">Давай устроим на днях лютую вечеринку века и поговорим по аудио?? Может фильмец посмотрим ;))</h1>
             <div>
               <button
                 className={"yes-button"}
                 style={{ fontSize: yesButtonSize }}
                 onClick={() => setYesPressed(true)}
               >
-                Да;
+                Да
               </button>
 
               <button onClick={handleNoClick} className="no-button">
