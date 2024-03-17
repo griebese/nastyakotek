@@ -12,27 +12,31 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "Ні",
-      "Ти впевнена?",
+      "Нет",
+      "В смысле нет??",
+      "Ты уверена?",
+      "Не спеши, обдумай!",
+      "Точно-точно?",
+      "Ты даже не сомневаешься?",
+      "Ну Ира-аааа",
+      "А может позже??",
+      "Ну ладно((",
+      "Не передумаешь?",
       "Точно?",
-      "Подумай ще раз!",
-      "Останній шанс!",
-      "Реально ні?",
-      "Юля подумай!!",
-      "Ріл подумай!!",
-      "Ти точно впевнена???",
-      "Це може бути помилка!!",
-      "Май совість!",
-      "Та годі!!",
-      "А ну без приколів!!",
-      "Ти серйозно??",
-      "Це твоя фінальна відповідь??",
-      "Ти мене засмутила :((",
-      "Подумай ще раз",
-      "Тепер подумай над своєю поведінкою(",
-      "Я з тобою не поділюсь полуницею!",
-      "Ну зай :(",
-      "Тоді я тебе не обійму("
+      "Точно-точно?",
+      "Точно-точно-точно?",
+      "Ну ИРАААааааа",
+      "А я тебе взамен отправлю фото целующихся вигуков",
+      "И не только вигуков",
+      "Передумала?",
+      "А если я тебе прочту фанфик о вигуках?",
+      "Тоже нет??",
+      "А ты точно Ира?",
+      "Нет значит да?",
+      "Нет?",
+      "Да?",
+      "Да???",
+      "Пиз?"
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -43,28 +47,28 @@ export default function Page() {
       <div className="valentine-container">
         {yesPressed ? (
           <>
-            <img src="https://media1.tenor.com/m/3MN6dnbHY9QAAAAC/spideypool-kiss.gif" />
-            <div className="text-container">Я тебе розцілую :*</div>
+            <img src="https://media1.tenor.com/m/PXVgzio7BmcAAAAC/happy-dance.gif" />
+            <div className="text-container">УраааАААААААА</div>
           </>
         ) : (
           <>
             <img
               className="h-[200px]"
               style={{ width: "400x", height: "240px" }}
-              src="https://media.tenor.com/j8m4rwG-sFkAAAAi/batman.gif"
+              src="https://media1.tenor.com/m/kN-nCTDiRLQAAAAd/taehyung.gif"
             />
-            <h1 className="text-container">Будеш моєю зайкою :*?</h1>
+            <h1 className="text-container">Давай устроим на днях лютую вечеринку века и поговорим по аудио??</h1>
             <div>
               <button
                 className={"yes-button"}
                 style={{ fontSize: yesButtonSize }}
                 onClick={() => setYesPressed(true)}
               >
-                Ja;
+                Да;
               </button>
 
               <button onClick={handleNoClick} className="no-button">
-                {noCount === 0 ? "Nein" : getNoButtonText()}
+                {noCount === 0 ? "Нет" : getNoButtonText()}
               </button>
             </div>
           </>
