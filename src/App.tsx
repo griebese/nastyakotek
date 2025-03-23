@@ -13,30 +13,30 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "Нет",
-      "В смысле нет??",
-      "Ты уверена?",
-      "Не спеши, обдумай!",
-      "Точно-точно?",
-      "Ты даже не сомневаешься?",
-      "Ну Ира-аааа",
-      "А может позже??",
-      "Ну ладно((",
-      "Не передумаешь?",
-      "Точно?",
-      "Точно-точно?",
-      "Точно-точно-точно?",
-      "Ну ИРАААааааа",
-      "А я тебе взамен отправлю фото целующихся вигуков",
-      "И не только вигуков",
-      "Передумала?",
-      "А если я тебе прочту фанфик о вигуках?",
-      "Тоже нет??",
-      "А ты точно Ира?",
-      "Нет значит да?",
-      "Нет?",
-      "Да?",
-      "АЭЭЭЭ",
-      "Пиз?"
+      "ТЫ ЧО",
+      "Эээ.. но ты же котек",
+      "ТЫ КОТЕК!!! НИКАКИХ НЕТ!",
+      "НЭТТ",
+      "ТЫ ЧО",
+      "НАСТЮШААААА",
+      "ЭЭЭЭЭЭ",
+      "НУ НИЗЯ ТАК ТЫ ЖЕ КОТЕК",
+      "ТЫ КОТЕККК",
+      "скажи мяу",
+      "НУ КАКОЕ ГАВ",
+      "мяу?",
+      "МЯУ",
+      "ну ты котеккк",
+      "ты правда ми-ми-ми котек",
+      "такая зайка-котек-енотек",
+      "да-да тыыы",
+      "вот помнишь енотеков",
+      "вот ты одна из них",
+      "ТАК ШТО НИКАКИХ НЕТ",
+      "пон??",
+      "да пон??",
+      "поннн???",
+      "все кароче пака"
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -47,17 +47,17 @@ export default function Page() {
       <div className="valentine-container">
         {yesPressed ? (
           <>
-            <img src="https://media1.tenor.com/m/Nt_gWzIXZdcAAAAd/taekook-awkward-jikook.gif" />
-            <div className="text-container">УрааААААА теперь я счастлива!!! Пойду смотреть на целующихся вигуков</div>
+            <img src="https://media1.tenor.com/m/QSXHbbtyF4UAAAAC/cat-haircut-cat.gif" />
+            <div className="text-container">УРААААААААА ДА ТЫ КОТЕК УРА УРА УРА ты и правда такая ми-ми-ми я тя оч оч люблю целую!!</div>
           </>
         ) : (
           <>
             <img
               className="h-[200px]"
               style={{ width: "400x", height: "240px" }}
-              src="https://media1.tenor.com/m/kN-nCTDiRLQAAAAd/taehyung.gif"
+              src="https://media1.tenor.com/m/qR1sGRNmfqsAAAAd/besito-catlove.gif"
             />
-            <h1 className="text-container">Давай устроим на днях лютую вечеринку века и поговорим по аудио?? Может фильмец посмотрим ;))</h1>
+            <h1 className="text-container">ТЫ КОТЕК????</h1>
             <div>
               <button
                 className={"yes-button"}
